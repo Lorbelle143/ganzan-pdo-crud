@@ -1,7 +1,7 @@
 <?php
 
 $host = 'localhost';
-$dbname = 'it28-ecommerce';
+$dbname = 'ganzan';
 $username = 'root';
 $password = '';
 /*
