@@ -1,18 +1,16 @@
 <?php
 
-$host = 'localhost';
-$dbname = 'ganzan';
-$username = 'root';
-$password = '';
-/*
-define('DB_SERVER', 'localhost');
-define('DB_USERNAME', 'u593341949_dev_demo');
-define('DB_PASSWORD', 'Admin_demo123');
-define('DB_NAME', 'u593341949_db_demo');
-*/
-try {
+
+$servername = "localhost";
+$username = "u593341949_dev_ganzan";
+$password = "20221055Ganzan";
+$dbname = "u593341949_db_ganzan";
+
+
+try {   
  $pdo = new PDO("mysql:host=$host;dbname=$dbname", $username, $password);
  $pdo->setAttribute(PDO::ATTR_ERRMODE, PDO::ERRMODE_EXCEPTION);
 } catch (PDOException $e) {
  die("Database connection failed: " . $e->getMessage());
 }
+
