@@ -1,9 +1,10 @@
 <?php
 // Database connection
 $servername = "localhost";
-$username = "root";
-$password = "";
-$dbname = "s";
+$username = "u593341949_dev_ganzan";
+$password = "20221055Ganzan";
+$dbname = "u593341949_db_ganzan";
+
 
 try {
     // Create a PDO connection
